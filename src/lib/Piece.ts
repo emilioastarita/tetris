@@ -109,7 +109,6 @@ export default class Piece {
                 return true;
             }
             return !!this.game.matrix[tile.y][tile.x];
-
         });
     }
 
