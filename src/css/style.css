@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-red: #831313;
+    --color-red-900: #500e0f;
+    --color-black: #0a0808;
+    --color-primary: #f3c454;
+    --color-white: #c0b6b6;
+    --color-bg-game: #210d0d;
+}
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: var(--color-red-900);
+    color: var(--color-white);
+    text-shadow: 2px 2px var(--color-black);
+    text-align: center;
+    padding: 10px 0;
+}
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: var(--color-primary);
+}
+.key {
+    color: var(--color-primary);
+}
+h4 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    background: var(--color-bg-game);
+    padding: 2px;
+    margin: 0 0 4px 0;
+}
+p {
+    margin: 4px 0 8px 0;
+}
+.status {
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.container {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 640px;
+    justify-content: center;
+    background: var(--color-red);
+    text-align: left;
+}
+.container #game {
+    background: var(--color-bg-game);
+    color: var(--color-red);
+}
+.container #info {
+    padding: 5px  25px 25px 25px;
+}
+.github-badge {
+    position: absolute;
+    right: 0;
+    top:0;
+}
